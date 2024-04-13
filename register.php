@@ -25,6 +25,8 @@ include("dbconnect.php");
 
 ?>
 
+
+
 <html>
     <head>
         <title></title>
@@ -33,7 +35,7 @@ include("dbconnect.php");
     
     <style>
         body {
-            background-image: url(images/A2.jpg); 
+            background-image: url(image/A2.jpg); 
             background-size: cover;
             background-attachment: fixed;
         }
@@ -87,9 +89,7 @@ include("dbconnect.php");
                             </div> 
                             <div class="form-group">
                                 <button class ="btn btn-primary" type="submit" name="registerbtn"> Register </button>
-                            </div>
-                            <p>Already have an Account ? <a href="login.php" > Sign In </a>
-                            </p> 
+                            </div> 
                         </form>
                     </div>
                 </div>
